@@ -1,0 +1,27 @@
+
+
+.star-rating {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .star-rating h1 {
+    font-size: 9.5em;
+    color: #cecbcb;
+    margin-bottom: 20px;
+  }
+  
+  .star-rating svg {
+    margin: 0 5px;
+  }
+  
+  body {
+    background-color: #515d68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  

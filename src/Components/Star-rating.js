@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 
-const StarRating = ({ noOfStars = 5 }) => {
+import './StarRating.css';
+
+
+const StarRating = ({ noOfStars =5 }) => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
 
@@ -19,10 +22,11 @@ const StarRating = ({ noOfStars = 5 }) => {
 
   return (
     <div className='star-rating'>
+        <h1>Rate Us !!!</h1>
       {Array.from({ length: noOfStars }, (_, index) => (
         <FaStar
           key={index}
-          size={24}
+          size={72}
           color={index < (hover || rating) ? "#ffc107" : "#e4e5e9"}
           onClick={() => handleClick(index)}
           onMouseEnter={() => handleMouseEnter(index)}
