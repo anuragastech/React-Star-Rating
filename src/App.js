@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StarRating from "./Components/Star-rating"
+import StarRating from  "./Components/Star-rating"
 
 class App extends Component {
   render() {
