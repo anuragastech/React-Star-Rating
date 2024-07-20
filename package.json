@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anuragastech.github.io/React-Star-Rating",
+"homepage": "https://anuragastech.github.io/React-Star-Rating",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
