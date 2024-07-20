@@ -3,6 +3,7 @@
 .star-rating {
     text-align: center;
     margin-bottom: 20px;
+    
   }
   
   .star-rating h1 {
@@ -19,6 +20,7 @@
     background-color: #515d68;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     min-height: 100vh;
     margin: 0;

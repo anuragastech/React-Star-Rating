@@ -38,4 +38,5 @@ const StarRating = ({ noOfStars =5 }) => {
   );
 };
 
+
 export default StarRating;
